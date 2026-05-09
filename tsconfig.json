@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2022"],
+    "module": "NodeNext",
+    "target": "ES2022",
+    "jsx": "react-jsx",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "generate-voiceover.ts"]
+}

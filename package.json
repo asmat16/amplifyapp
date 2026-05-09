@@ -1,0 +1,24 @@
+{
+  "name": "spidoo-rey-video",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render SpidooRey out/spidoo-rey.mp4",
+    "voiceover": "node --strip-types generate-voiceover.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "@remotion/media": "^4.0.0",
+    "@remotion/transitions": "^4.0.0",
+    "mediabunny": "^1.44.0",
+    "remotion": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.8.0"
+  }
+}
