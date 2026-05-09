@@ -14,7 +14,7 @@ npm start                            # open Remotion Studio (hot-reload preview)
 npm run render                       # render final MP4 to out/spidoo-rey.mp4
 
 # Generate Urdu voiceover via ElevenLabs (requires API key)
-ELEVENLABS_API_KEY=<key> npm run voiceover
+ELEVENLABS_API_KEY=<key> npm run voiceover   # uses npx tsx internally
 ```
 
 Run a single Remotion render pass for a specific frame range:
